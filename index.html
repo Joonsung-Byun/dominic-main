@@ -90,7 +90,7 @@
                 <h2 style="color: white">Utah Valley University</h2>
                 <h2 style="color: white">Web Design and Development</h2>
                 <h2 style="color: white">Web and App Development Emphasis</h2>
-                <h2 style="color: white">전공학점: 3.9</h2>
+                <h2 style="color: white">전공학점: 3.9 / 4.0</h2>
                 <h3 class="cd-headline clip is-full-width">
                 </h3>
             </div>
@@ -120,10 +120,10 @@
 
                             학부시절, 개발에 대한 열정은 높은 학점으로 이루어졌고, 스스로 배우는것을 넘어 학교 Academic Web Developement Tutor로 활동하며 다른 학생들에게 웹 개발을 가르치는 경험을 쌓았습니다.
                         </p>
-                        <div class="resumeBtnContainer">
+                        <!-- <div class="resumeBtnContainer">
                             <a href="Joonsun_Byun-Resume.pdf" class="sim-btn" download><span>Download
                                     Resume</span></a>
-                        </div>
+                        </div> -->
 
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
@@ -243,6 +243,18 @@
                     <p style="font-weight: 800; color: white; font-size: 18px;">CSS3</p>
                 </div><!-- end col -->
 
+                <div class=""
+                    style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                    <img src="uploads/java.svg" alt="Node" width="70">
+                    <p style="font-weight: 800; color: white; font-size: 18px;">Java</p>
+                </div><!-- end col -->
+  
+                <div class=""
+                    style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                    <img src="uploads/python.svg" alt="Node" width="70">
+                    <p style="font-weight: 800; color: white; font-size: 18px;">Python</p>
+                </div><!-- end col -->
+
             </div><!-- end row -->
         </div><!-- end container -->
     </div>
@@ -257,6 +269,33 @@
             </div><!-- end title -->
             <div style="display: flex; flex-direction: column; gap: 40px;">
                 <!--각 each project-->
+                <section class="eachSection" id="project-1" data-id="project-1">
+                    <div>
+                        <a href="https://ism-rag.vercel.app/" target="_blank" >
+                            <img style="height: 200px; object-fit: cover;" src="uploads/ism-2.png" />
+                        </a>
+                    </div>
+                    <article>
+                        <h3 style="color: white;">RAG 활용 AI 현장 위험성 분석 애플리케이션</h3>
+                        <p>
+                            이 애플리케이션은 산업 현장에서의 위험성을 분석하고, AI를 활용하여 위험 요소를 식별하는 기능을 갖추고 있습니다. 
+                            산업 현장의 사진, 날짜, 위치, 온도, 바람등을 종합적으로 분석하여 AI 기반 현장 위험성 분석을 제공합니다. 
+                            Weaviate 벡터 DB를 통해 과거 안전 사고 사례를 증강 검색하여, 답변의 퀄리티를 향상시켰습니다.
+                        </p>
+                        <ul class="skills">
+                            <li>Next.js</li>
+                            <li>Weaviate</li>
+                            <li>RAG</li>
+                            <li>OpenAI</li>
+                            <li>Tailwind</li>
+                        </ul>
+                        <div class="btnContainer">
+                            <a href="https://ism-rag.vercel.app/" target="_blank" class="link">View Site</a>
+                            <a href="https://github.com/Joonsung-Byun/ism-rag" target="_blank" class="link">View SOURCE CODE</a>
+                        </div>
+
+                    </article>
+                </section>
 
                 <section class="eachSection" id="project0" data-id="project0">
                     <div>
@@ -280,6 +319,29 @@
                     </article>
                 </section>
 
+                <section class="eachSection" id="target0dot5" data-id="target0dot5">
+                    <div>
+                        <a href="https://www.npmjs.com/package/unused-tracker" target="_blank" >
+                            <img style="height: 200px;" src="uploads/unused-tracker-thumb.png" /></a>
+                    </div>
+                    <article>
+                        <h3 style="color: white;">Unused-tracker, 미사용함수 탐지 npm 라이브러리</h3>
+                        <p>
+                            이 프로젝트는 TypeScript로 작성된 npm 라이브러리로, 코드베이스에서 미사용 함수를 탐지하는 기능을 제공합니다. 
+                            ts-morph 라이브러리를 활용하여 함수 선언과 참조 횟수를 탐색하여, 선언 후 사용되지 않은 함수를 식별합니다.
+                            --json, --html 옵션을 통해 JSON 또는 HTML 형식으로 결과를 출력할 수 있습니다.
+                            또한 --ci 옵션을 사용하여 CI/CD 환경에서 실행할 수 있도록 설계되었습니다.
+                        </p>
+                        <ul class="skills">
+                            <li>TypeScript</li>
+                            <li>ts-morph</li>
+                        </ul>
+                        <div class="btnContainer">
+                            <a href="hhttps://www.npmjs.com/package/unused-tracker" target="_blank" class="link">View Package</a>
+                        </div>
+
+                    </article>
+                </section>
 
                 <section class="eachSection" id="project1" data-id="project1">
                     <div>
@@ -372,7 +434,6 @@
                     </article>
                 </section>
 
-
                 <section class="eachSection" id="project5" data-id="project5">
                     <div>
                         <a href="https://medium.com/@gmmicky1026/easy-explanation-about-vite-8a6493731fc4"
@@ -389,20 +450,6 @@
                     </article>
                 </section>
 
-                <section class="eachSection" id="project6" data-id="project6">
-                    <div>
-                        <a href="https://medium.com/@gmmicky1026/why-webp-files-are-the-optimal-image-format-for-the-web-8531bff6406f"
-                            target="_blank"> <img src="uploads/webp.png" /></a>
-                    </div>
-                    <article>
-                        <h3 style="color: white;">Practical Knowledge, Pros of WebP format</h3>
- <p>WebP는 JPEG나 PNG 같은 기존 이미지 포맷과 비교해 뛰어난 압축률과 품질을 제공하는 현대적인 이미지 포맷입니다. 이 글에서는 WebP의 개요와 주요 특징, 장점에 대해 설명하며, JPEG, PNG와의 비교를 통해 WebP 이미지의 우수한 압축률과 품질을 입증합니다.</p>
-                        <div class="btnContainer">
-                            <a href="https://medium.com/@gmmicky1026/why-webp-files-are-the-optimal-image-format-for-the-web-8531bff6406f"
-                                class="link" target="_blank">View Case Study</a>
-                        </div>
-                    </article>
-                </section>
             </div>
 
 
