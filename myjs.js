@@ -17,6 +17,8 @@ const target13 = document.querySelector('#project6');
 const targetMinus1 = document.querySelector('#project-1');
 const target0dot5 = document.querySelector('#target0dot5');
 
+const hello10 = document.querySelector('#project10');
+
 const target14 = document.querySelector('#experienceH2');
 
 const target15 = document.querySelector('#experience1');
@@ -67,6 +69,10 @@ if (target6) {
 }
 if (target7) {
     sectionObserver.observe(target7);
+}
+
+if (hello10) {
+    sectionObserver.observe(hello10);
 }
 
 if (target0) {
@@ -162,7 +168,7 @@ function callBackFunction(entries){
         }
 
 
-        if(entry.target.dataset.id === "aboutP2" || entry.target.dataset.id === "project0"  || entry.target.dataset.id === "project1" || entry.target.dataset.id === "project3" || entry.target.dataset.id === "project5"){
+        if(entry.target.dataset.id === "aboutP2" || entry.target.dataset.id === "project0"  || entry.target.dataset.id === "project1"  || entry.target.dataset.id === "project5"|| entry.target.dataset.id === "project2" || entry.target.dataset.id === "project4" ){
             if(entry.isIntersecting){
                 // transform 0
                 entry.target.style.transform = 'translateX(0)';
@@ -182,7 +188,7 @@ function callBackFunction(entries){
         }
 
         // project 짝수들만
-        if(entry.target.dataset.id === "aboutimg"|| entry.target.dataset.id === "project-1" || entry.target.dataset.id === "target0dot5"|| entry.target.dataset.id === "project2" || entry.target.dataset.id === "project4" || entry.target.dataset.id === "project6" || entry.target.dataset.id === "experience1" || entry.target.dataset.id === "experience3"){
+        if(entry.target.dataset.id === "aboutimg"|| entry.target.dataset.id === "project-1" || entry.target.dataset.id === "project10" || entry.target.dataset.id === "target0dot5"  ||  entry.target.dataset.id === "project6" ||  entry.target.dataset.id === "project3"||entry.target.dataset.id === "experience1" || entry.target.dataset.id === "experience3"){
             if(entry.isIntersecting){
                 // transform 0
                 entry.target.style.transform = 'translateX(0)';
